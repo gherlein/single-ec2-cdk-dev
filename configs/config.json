@@ -1,0 +1,15 @@
+{
+    "stackName": "SingleEc2Stack-dev",
+    "ec2Name": "dev",
+    "nickName": "dev",
+    "ec2Class": "t3",
+    "ec2Size": "2xlarge",
+    "keyName": "gherlein-ec2",
+    "keyFile": "~/keys/gherlein-ec2.pem",
+    "hostedZoneID": "Z00609272L7MZI1OMD0IL",
+    "domainName": "herlein.dev",
+    "userDataFile": "~/gch/userdata-gherlein",
+    "cdkOut": "cdk-outputs.json",
+    "timeBomb": "0",
+    "awsConfig": "~/.aws/"
+}
